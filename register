@@ -1,0 +1,7 @@
+Command:
+curl -X POST http://localhost:5000/customer/register -H "Content-Type: application/json" -d "{\"username\":\"minzechen\",\"password\":\"Passw0rd!\"}"
+
+Output:
+{
+  "message": "User minzechen successfully registered. Now you can login."
+}
