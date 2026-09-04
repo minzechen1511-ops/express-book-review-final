@@ -1,0 +1,13 @@
+Command:
+curl -X GET http://localhost:5000/isbn/1
+
+Output:
+{
+  "1": {
+    "author": "Chinua Achebe",
+    "title": "Things Fall Apart",
+    "reviews": {
+      "reader01": "A powerful story about tradition, change, and community."
+    }
+  }
+}
