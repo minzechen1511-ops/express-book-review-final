@@ -1,0 +1,11 @@
+Command:
+curl -X PUT http://localhost:5000/customer/auth/review/1 -H "Content-Type: application/json" -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1pbnplY2hlbiIsImlhdCI6MTc4ODQ5ODA3MiwiZXhwIjoxNzg4NTAxNjcyfQ.VLeFs_6ty9BwLTpnfdjE7m8fK7pQmP8B3C0T1uV5e44" -d "{\"review\":\"This is a thoughtful and memorable novel with strong character development.\"}"
+
+Output:
+{
+  "message": "Review successfully added or updated.",
+  "reviews": {
+    "reader01": "A powerful story about tradition, change, and community.",
+    "minzechen": "This is a thoughtful and memorable novel with strong character development."
+  }
+}

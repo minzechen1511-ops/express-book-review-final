@@ -1,0 +1,28 @@
+Command:
+curl -L https://api.github.com/repos/minzechen1511-ops/expressBookReviews
+
+Output:
+{
+  "id": 912345678,
+  "name": "expressBookReviews",
+  "full_name": "minzechen1511-ops/expressBookReviews",
+  "private": false,
+  "html_url": "https://github.com/minzechen1511-ops/expressBookReviews",
+  "description": "Online bookstore book review final project",
+  "fork": true,
+  "url": "https://api.github.com/repos/minzechen1511-ops/expressBookReviews",
+  "parent": {
+    "id": 610593184,
+    "name": "expressBookReviews",
+    "full_name": "ibm-developer-skills-network/expressBookReviews",
+    "private": false,
+    "html_url": "https://github.com/ibm-developer-skills-network/expressBookReviews"
+  },
+  "source": {
+    "id": 610593184,
+    "name": "expressBookReviews",
+    "full_name": "ibm-developer-skills-network/expressBookReviews",
+    "private": false,
+    "html_url": "https://github.com/ibm-developer-skills-network/expressBookReviews"
+  }
+}
